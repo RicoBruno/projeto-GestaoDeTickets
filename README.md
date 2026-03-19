@@ -8,7 +8,7 @@ Este é um projeto focado em aprendizado de desenvolvimento Full Stack, onde est
 ## 🛠 Tecnologias
 As principais ferramentas utilizadas neste projeto:
 * **Frontend:** HTML5, CSS3, JavaScript
-* **Backend:** Node.js (ou a linguagem que escolherem)
+* **Backend:** Java Springboot (ou a linguagem que escolherem)
 * **Versionamento:** Git & GitHub
 
 ## 👥 Equipe
