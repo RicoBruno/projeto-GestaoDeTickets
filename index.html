@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compre ingressos para os melhores shows, festivais e eventos do Brasil.">
+    <title>TicketVibe | Seus Eventos Favoritos</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-ticket"></i>
+                <span>TicketVibe</span>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="eventos.html">Eventos</a>
+                <a href="shows.html">Shows</a>
+                <a href="destaques.html">Destaques</a>
+                <a href="artistas.html">Artistas</a>
+                <a href="turnes.html">Turnês</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Login</a>
+                <a href="cadastro.html" class="btn-cadastro">Cadastro</a>
+            </div>
+
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">Novos Eventos Adicionados</span>
+            <h1>Viva experiências<br><span class="gradient-text">inesquecíveis</span></h1>
+            <p>Garanta seu lugar nos melhores shows e festivais do ano. A música não para!</p>
+            
+            <div class="search-bar glass">
+                <div class="search-input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Busque por artista, evento ou local">
+                </div>
+                <div class="search-divider"></div>
+                <div class="search-input">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Qualquer lugar">
+                </div>
+                <button class="btn-search">Buscar Ingressos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques Section -->
+    <section class="destaques" id="destaques">
+        <div class="section-header">
+            <h2>Eventos em <span class="gradient-text">Destaque</span></h2>
+            <a href="destaques.html" class="btn-view-all">Ver todos <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="event-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1540039155732-680854537c5e?q=80&w=800&auto=format&fit=crop" alt="Festival de Verão">
+                    <div class="card-date">
+                        <span class="day">15</span>
+                        <span class="month">NOV</span>
+                    </div>
+                    <div class="card-like"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="card-content">
+                    <div class="card-tags">
+                        <span class="tag">Festival</span>
+                        <span class="tag">Música Eletrônica</span>
+                    </div>
+                    <h3>Electric Dream Festival</h3>
+                    <div class="card-info">
+                        <p><i class="fa-solid fa-location-dot"></i> Allianz Parque, SP</p>
+                        <p><i class="fa-solid fa-clock"></i> A partir das 18h</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        <span>A partir de</span>
+                        <strong>R$ 250,00</strong>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="event-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=800&auto=format&fit=crop" alt="Show de Rock">
+                    <div class="card-date">
+                        <span class="day">02</span>
+                        <span class="month">DEZ</span>
+                    </div>
+                    <div class="card-like"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="card-content">
+                    <div class="card-tags">
+                        <span class="tag">Rock</span>
+                        <span class="tag">Turnê</span>
+                    </div>
+                    <h3>The Legends Tour</h3>
+                    <div class="card-info">
+                        <p><i class="fa-solid fa-location-dot"></i> Estádio do Morumbi, SP</p>
+                        <p><i class="fa-solid fa-clock"></i> 20:30</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        <span>A partir de</span>
+                        <strong>R$ 380,00</strong>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="event-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=800&auto=format&fit=crop" alt="Festa Pop">
+                    <div class="card-date">
+                        <span class="day">20</span>
+                        <span class="month">JAN</span>
+                    </div>
+                    <div class="card-like"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div class="card-content">
+                    <div class="card-tags">
+                        <span class="tag">Pop</span>
+                        <span class="tag">Internacional</span>
+                    </div>
+                    <h3>Pop Star Experience</h3>
+                    <div class="card-info">
+                        <p><i class="fa-solid fa-location-dot"></i> Jeunesse Arena, RJ</p>
+                        <p><i class="fa-solid fa-clock"></i> 21:00</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        <span>A partir de</span>
+                        <strong>R$ 420,00</strong>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

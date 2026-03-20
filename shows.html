@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shows | TicketVibe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" style="display:flex; align-items:center; gap:0.5rem;">
+                    <i class="fa-solid fa-ticket"></i>
+                    <span>TicketVibe</span>
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="eventos.html">Eventos</a>
+                <a href="shows.html" style="color:var(--text-main);">Shows</a>
+                <a href="destaques.html">Destaques</a>
+                <a href="artistas.html">Artistas</a>
+                <a href="turnes.html">Turnês</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Login</a>
+                <a href="cadastro.html" class="btn-cadastro">Cadastro</a>
+            </div>
+            <div class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h1>Shows <span class="gradient-text">Incríveis</span></h1>
+        <p>A melhor vitrine de shows nacionais e internacionais num só lugar.</p>
+    </section>
+
+    <section class="page-content cards-grid">
+        <div class="event-card">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1540039155732-680854537c5e?q=80&w=800&auto=format&fit=crop" alt="Show Indisponivel">
+                <div class="card-date"><span class="day">15</span><span class="month">NOV</span></div>
+                <div class="card-like"><i class="fa-regular fa-heart"></i></div>
+            </div>
+            <div class="card-content">
+                <div class="card-tags"><span class="tag">Música Eletrônica</span></div>
+                <h3>DJ Night Live</h3>
+                <div class="card-info">
+                    <p><i class="fa-solid fa-location-dot"></i> Espaço Unimed, SP</p>
+                    <p><i class="fa-solid fa-clock"></i> 22:00</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="price"><span>A partir de</span><strong>R$ 180,00</strong></div>
+                <button class="btn-buy">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
