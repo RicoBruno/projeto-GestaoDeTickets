@@ -1,0 +1,113 @@
+/* Authentication Forms */
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 1rem 2rem;
+    background: var(--bg-dark);
+    position: relative;
+    border-top: 1px solid var(--glass-border);
+}
+
+.auth-container {
+    background: var(--bg-dark);
+    border: 1px solid var(--glass-border);
+    border-radius: 2px;
+    padding: 3.5rem 3rem;
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    box-shadow: none;
+}
+
+.auth-container h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.auth-container p {
+    color: var(--text-muted);
+    margin-bottom: 2.5rem;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    padding: 0.8rem 1rem;
+    border-radius: 2px;
+    color: var(--text-main);
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.btn-submit {
+    background: var(--text-main);
+    border: 1px solid var(--text-main);
+    color: var(--bg-dark);
+    padding: 1rem;
+    border-radius: 2px;
+    font-family: var(--font-main);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-submit:hover {
+    background: transparent;
+    color: var(--text-main);
+}
+
+.auth-links {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 300;
+}
+
+.auth-links a {
+    color: var(--text-main);
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.auth-links a:hover {
+    text-decoration: none;
+    color: var(--text-muted);
+}
